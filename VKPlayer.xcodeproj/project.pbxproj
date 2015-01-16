@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4275378A1A69099F005CB236 /* VKSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F1CA0C1A4C2A16009386BF /* VKSdk.framework */; };
 		846FD1A41A4C1D50006F2054 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FD1A31A4C1D50006F2054 /* main.m */; };
 		846FD1A71A4C1D50006F2054 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FD1A61A4C1D50006F2054 /* AppDelegate.m */; };
 		846FD1AA1A4C1D50006F2054 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FD1A91A4C1D50006F2054 /* ViewController.m */; };
@@ -15,7 +16,6 @@
 		846FD1B21A4C1D50006F2054 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846FD1B01A4C1D50006F2054 /* LaunchScreen.xib */; };
 		846FD1BE1A4C1D50006F2054 /* VKPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FD1BD1A4C1D50006F2054 /* VKPlayerTests.m */; };
 		84F1CA0B1A4C29FF009386BF /* VKSdkResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84F1CA0A1A4C29FF009386BF /* VKSdkResources.bundle */; };
-		84F1CA0D1A4C2A16009386BF /* VKSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F1CA0C1A4C2A16009386BF /* VKSdk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84F1CA0D1A4C2A16009386BF /* VKSdk.framework in Frameworks */,
+				4275378A1A69099F005CB236 /* VKSdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,7 +183,7 @@
 				TargetAttributes = {
 					846FD19D1A4C1D50006F2054 = {
 						CreatedOnToolsVersion = 6.1;
-						DevelopmentTeam = LP7FP795XW;
+						DevelopmentTeam = MZ68QX5J75;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -192,6 +192,7 @@
 					};
 					846FD1B61A4C1D50006F2054 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = MZ68QX5J75;
 						TestTargetID = 846FD19D1A4C1D50006F2054;
 					};
 				};
@@ -369,13 +370,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/admin/Documents/vk-ios-sdk",
+					"/Users/vorren/vk-ios-sdk",
 				);
 				INFOPLIST_FILE = VKPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -384,13 +388,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/admin/Documents/vk-ios-sdk",
+					"/Users/vorren/vk-ios-sdk",
 				);
 				INFOPLIST_FILE = VKPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

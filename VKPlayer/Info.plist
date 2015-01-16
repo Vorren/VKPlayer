@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>MaxPovver.$(PRODUCT_NAME:rfc1034identifier)</string>
+	<string>com.pvmajev.VKPlayer</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -21,11 +21,13 @@
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>vk4697857</string>
+			<string>vk4733049</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>vk4697857</string>
+				<string>vk4733049</string>
 			</array>
 		</dict>
 	</array>

@@ -28,7 +28,7 @@ AVPlayer* player;
 
     // Do any additional setup after loading the view, typically from a nib.
     SCOPE = @[ VK_PER_WALL, VK_PER_AUDIO];
-    [VKSdk initializeWithDelegate:self andAppId:@"4697857"];
+    [VKSdk initializeWithDelegate:self andAppId:@"4733049"];
     [[VKSdk instance] setDelegate:self];
     if ([VKSdk wakeUpSession])
     {
